@@ -10,7 +10,6 @@ import Final1 from '../../../assets/Images/final1.jpg';
 import Front from '../../../assets/Images/front.png';
 import Top from '../../../assets/Images/top.png';
 import left from '../../../assets/Images/left.png';
-import parallaxImage from '../../../assets/Images/parallax.png';
 import BackToTopButton from "../../ui/BackToTopButton.jsx";
 import ScrollToTop from "../../ui/ScrollToTop.jsx";
 
