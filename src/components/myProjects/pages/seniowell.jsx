@@ -12,7 +12,7 @@ import Proto1 from '../../../assets/Images/proto1.png';
 import Proto2 from '../../../assets/Images/proto2.png';
 import Proto3 from '../../../assets/Images/proto3.png';
 import Proto4 from '../../../assets/Images/proto4.png';
-import userflowImage from '../../../assets/Images/User_flow.png';
+import userflowImage from '../../../assets/Images/User_Flow.png';
 import Mockup1 from '../../../assets/Images/mockup1.png';
 import parallaxImage from '../../../assets/Images/parallax.png';
 import BackToTopButton from "../../ui/BackToTopButton";
