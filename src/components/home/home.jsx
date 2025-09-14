@@ -12,7 +12,7 @@ import { Link, NavLink } from "react-router-dom";
 import { BackgroundGradient } from "../ui/background-gradient";
 import { IconAppWindow } from "@tabler/icons-react";
 import ScrollToTop from "../ui/ScrollToTop.jsx";
-import Final1 from '../../assets/Images/final1.jpg';
+import Final1 from '../../assets/Images/Final1.jpg';
 import RhinoIcon from "../ui/RhinoIcon";
 
 import BackToTopButton from "../ui/BackToTopButton";
