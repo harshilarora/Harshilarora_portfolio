@@ -6,7 +6,7 @@ import { ContainerScroll } from "../../ui/ContainerScroll.jsx";
 import Sculpture1 from "../../../assets/Images/sculpture1.PNG";
 import Sculpture2 from '../../../assets/Images/sculpture2.png';
 import Sculpture3 from '../../../assets/Images/sculpture3.png';
-import Final1 from '../../../assets/Images/final1.jpg';
+import Final1 from '../../../assets/Images/Final1.jpg';
 import Front from '../../../assets/Images/front.png';
 import Top from '../../../assets/Images/top.png';
 import left from '../../../assets/Images/left.png';
