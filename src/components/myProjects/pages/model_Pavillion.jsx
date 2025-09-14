@@ -3,7 +3,7 @@ import React from "react";
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom'; 
 import { ContainerScroll } from "../../ui/ContainerScroll.jsx";
-import Sculpture1 from "../../../assets/Images/sculpture1.png";
+import Sculpture1 from "../../../assets/Images/sculpture1.PNG";
 import Sculpture2 from '../../../assets/Images/sculpture2.png';
 import Sculpture3 from '../../../assets/Images/sculpture3.png';
 import Final1 from '../../../assets/Images/final1.jpg';
