@@ -1,13 +1,7 @@
 "use client";
-import React from "react";
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom'; 
-import { StickyScroll  } from "../../ui/sticky-scroll-reveal.jsx";
 import ScrollToTop from "../../ui/ScrollToTop.jsx";
-
-
-import { ContainerScroll } from "../../ui/ContainerScroll.jsx";
-import vmfImage from "../../../assets/Images/vmf.png";
 import group1 from '../../../assets/Images/Group1.png';
 import group2 from '../../../assets/Images/Group2.png';
 import group3 from '../../../assets/Images/Group3.png';
@@ -16,9 +10,6 @@ import group5 from '../../../assets/Images/Group5.png';
 import group6 from '../../../assets/Images/Group6.png';
 import group7 from '../../../assets/Images/Group7.png';
 import group8 from '../../../assets/Images/Group8.png';
-import userflowImage from '../../../assets/Images/User_flow.png';
-import Mockup1 from '../../../assets/Images/mockup1.png';
-import parallaxImage from '../../../assets/Images/parallax.png';
 import BackToTopButton from "../../ui/BackToTopButton";
 
 
