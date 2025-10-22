@@ -14,6 +14,8 @@ import { IconAppWindow } from "@tabler/icons-react";
 import ScrollToTop from "../ui/ScrollToTop.jsx";
 import Final1 from '../../assets/Images/Final1.jpg';
 import RhinoIcon from "../ui/RhinoIcon";
+import SkillsSection from "../ui/skill_section.jsx";
+
 
 import BackToTopButton from "../ui/BackToTopButton";
 
@@ -95,7 +97,7 @@ export default function Home() {
   return (
     <>
       {/* === INTRODUCTION SECTION === */}
-      <section className="h-screen bg-gray-950 text-white flex items-center justify-center">
+      <section id="home" className="h-screen bg-gray-950 text-white flex items-center justify-center">
         <div className=" w-full max-w-6xl px-8">
           
           <TypewriterEffectSmooth words={words} className="text-md" />
@@ -124,7 +126,7 @@ export default function Home() {
     
       {/* --- */}
 
-      <section className="h-screen bg-gray-950 text-white flex justify-center">
+      <section  id="myStory" className="h-screen bg-gray-950 text-white flex justify-center">
         <div className="flex flex-col md:flex-row gap-8 md:gap-12 w-full max-w-6xl px-8">
           <div>
           
@@ -170,6 +172,79 @@ export default function Home() {
 
         </div>
       </section>
+
+
+
+      <section>
+        <SkillsSection />
+      </section>
+
+<section className="w-full bg-gray-950 text-white py-24">
+  <div className="max-w-7xl mx-auto px-8 md:px-16">
+    {/* Main Grid: Header on left, Steps on right */}
+    <div className="grid grid-cols-1 lg:grid-cols-5 gap-16">
+      
+      {/* Left Column: Header */}
+      <motion.div
+        initial={{ opacity: 0, y: -50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+        className="lg:col-span-2"
+      >
+        <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-4 text-white mt-20">
+          THE PROCESS
+        </h2>
+        <p className="text-gray-400 leading-relaxed text-base max-w-md">
+          While every project is unique, following this structure as a best practice ensures an efficient and effective workflow.
+        </p>
+      </motion.div>
+
+      {/* Right Column: Steps Grid */}
+      <div className="lg:col-span-3 grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-28 mt-32 sm:ml-12">
+        {[
+          {
+            number: "1",
+            title: "BRIEFS",
+            description: "Understanding the needs and objectives, gathering essential information to set the foundation for the project."
+          },
+          {
+            number: "2",
+            title: "CONCEPTING",
+            description: "Exploring designs and providing multiple options that align with the vision, blending creativity with strategy."
+          },
+          {
+            number: "3",
+            title: "REVIEWS",
+            description: "Collaborations to refine the creative, making adjustments to ensure the final product meets all expectations."
+          },
+          {
+            number: "4",
+            title: "RELEASE",
+            description: "Polishing the design, preparing the final deliverables, and ensuring everything is ready for launch or production."
+          }
+        ].map((step, index) => (
+          <motion.div
+            key={index}
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: index * 0.2 }}
+            className="relative"
+          >
+            <span className="absolute -top-16 -left-12 text-[100px] font-bold text-gray-800 opacity-90 leading-none pointer-events-none">
+              {step.number}
+            </span>
+            <div className="relative pl-2 pt-2">
+              <h3 className="text-xl font-bold tracking-wider mb-3 text-white">{step.title}</h3>
+              <p className="text-gray-400 leading-relaxed text-base">{step.description}</p>
+            </div>
+          </motion.div>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
+
       
       
 
@@ -256,7 +331,7 @@ export default function Home() {
           ))}
         </motion.div>
         <BackToTopButton />
-          <ScrollToTop />
+        
         
       </section>
     </>

@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import vmfImage from "../../assets/Images/vmf.png";
 import prototypeImage from "../../assets/Images/prototype.jpg";
 import { NavLink } from "react-router-dom";
+
 import { BentoGrid, BentoGridItem } from "../ui/bento-grid";
 import {
   IconClipboardCopy,
