@@ -176,7 +176,7 @@ const ImageSection = ({ images, altTextPrefix, layout = 'full-width' }) => {
 // BackToHomeButton Component (internal)
 const BackToHomeButton = () => {
   return (
-    <div className=" bg-gray-950 text-center mb-20 h-28">
+    <div className=" bg-gray-950 text-center  h-28">
       <Link
         to="/"
         className="inline-block bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-full transition duration-300"
@@ -267,7 +267,7 @@ export default function VMFCaseStudy() {
 
       <BackToTopButton/>
       <BackToHomeButton  />
-        <ScrollToTop />
+      <ScrollToTop />
       
     </div>
   );
