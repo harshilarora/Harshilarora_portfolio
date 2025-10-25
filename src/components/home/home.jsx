@@ -15,8 +15,6 @@ import ScrollToTop from "../ui/ScrollToTop.jsx";
 import Final1 from '../../assets/Images/Final1.jpg';
 import RhinoIcon from "../ui/RhinoIcon";
 import SkillsSection from "../ui/skill_section.jsx";
-
-
 import BackToTopButton from "../ui/BackToTopButton";
 
 
@@ -126,7 +124,7 @@ export default function Home() {
     
       {/* --- */}
 
-      <section  id="myStory" className="h-screen bg-gray-950 text-white flex justify-center">
+      <section  id="myStory" className="pb-12 bg-gray-950 text-white flex justify-center">
         <div className="flex flex-col md:flex-row gap-8 md:gap-12 w-full max-w-6xl px-8">
           <div>
           
@@ -142,10 +140,10 @@ export default function Home() {
           >
             
             <p className="text-xl font-montserrat leading-8 text-gray-400 w-3/4">
-            My academic journey at Simon Fraser University began in Computer Science, providing me with technical skills and coding proficiency. Seeking a more creative and user-centric approach, I transitioned to the School of Interactive Arts + Technology (SIAT), graduating with Bsc in December 2025. I focus on crafting intuitive digital experiences by translating user needs into functional web interfaces and interactive UX designs.
+            My academic journey at Simon Fraser University began in Computer Science, providing me with technical skills and coding proficiency. Seeking a more creative and user-centric approach, I transitioned my major to Interactive Arts + Technology (SIAT), graduating with Bsc in December 2025. I focus on crafting intuitive digital experiences by translating user needs into functional web interfaces and interactive UX designs.
             <br/>
             <br/>
-            My expertise spans front-end web development, UX/UI design principles, and 3Ddesign within the interactive media discourse community. I work with HTML, CSS,JavaScript, Tailwind, React, and React Native, complemented by Adobe Illustrator and3D modeling software including Maya and Rhino 3D. My process encompasses user research, wireframing, prototyping, and iterative testing to ensure user-backed decisions. My development approach emphasizes responsive, high-performance solutions through scalable, component-based design systems. This multidisciplinary foundation enables me to deliver digital products that are both visually engaging andfunctionally robust.
+            My expertise spans front-end web development, UX/UI design principles, and 3D design within the interactive media discourse community. I work with HTML, CSS, JavaScript, Tailwind, React, and React Native, complemented by Adobe Illustrator and 3D modeling software including Maya and Rhino 3D. My process encompasses user research, wireframing, prototyping, and iterative testing to ensure user-backed decisions. My development approach emphasizes responsive, high-performance solutions through scalable, component-based design systems. This multidisciplinary foundation enables me to deliver digital products that are both visually engaging and functionally robust.
             </p>
           </motion.div>
           </div>
