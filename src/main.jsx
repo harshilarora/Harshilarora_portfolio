@@ -10,6 +10,7 @@ import VMF from "./components/myProjects/pages/VMF";
 import PetMe from "./components/myProjects/pages/PetMe";
 import Seniowell from "./components/myProjects/pages/seniowell.jsx";
 import Model_Pavillion from "./components/myProjects/pages/model_Pavillion.jsx";
+import { Analytics } from '@vercel/analytics/react';
 
 
 

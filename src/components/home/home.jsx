@@ -16,6 +16,8 @@ import Final1 from '../../assets/Images/Final1.jpg';
 import RhinoIcon from "../ui/RhinoIcon";
 import SkillsSection from "../ui/skill_section.jsx";
 import BackToTopButton from "../ui/BackToTopButton";
+import { Analytics } from '@vercel/analytics/react';
+
 
 
 // icons
@@ -94,6 +96,7 @@ export default function Home() {
 
   return (
     <>
+    <Analytics />
       {/* === INTRODUCTION SECTION === */}
       <section id="home" className="h-screen bg-gray-950 text-white flex items-center justify-center">
         <div className=" w-full max-w-6xl px-8">
